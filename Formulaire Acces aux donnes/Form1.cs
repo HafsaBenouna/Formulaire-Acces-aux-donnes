@@ -18,7 +18,7 @@ namespace Formulaire_Acces_aux_donnes
             InitializeComponent();
         }
 
-        static string chaine = @"Data Source=DESKTOP-UPQQNIA\SQLEXPRESS;Initial Catalog=database;Integrated Security=True";
+        static string chaine = @"Data Source=DESKTOP-UPQQNIA\SQLEXPRESS;Initial Catalog=LIVRE;Integrated Security=True";
         static SqlConnection cnx = new SqlConnection(chaine);
         static SqlCommand cmd = new SqlCommand();
         static SqlDataAdapter adapter = new SqlDataAdapter(cmd);
